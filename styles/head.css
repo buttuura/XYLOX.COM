@@ -1,0 +1,149 @@
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right: 0px;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-block-color: rgb(232, 227, 227);
+    z-index: 1;
+
+}
+.search-bar{
+    flex:1;
+    height: 36px;
+    padding-left: 12px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 2px;
+    box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width: 0;
+
+}
+.search-bar::placeholder{
+    font-family: arial,Roboto;
+    font-size: 16qpx;
+
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.ut2{
+    height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.ut1{
+    height: 20px;
+   
+}
+.middle{
+    flex:1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    z-index: 1px;
+    
+
+}
+.ut3{
+    height: 25px;
+    width: 60px;
+    margin-top: 4px;
+}
+.button1{
+    height: 39px;
+    border-style: solid;
+    border-color: gray;
+    background-color:rgb(235,235,235);
+    border-width:1px;
+    border-color:gray;
+    margin: -1px;
+    margin-right: 10px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: relative;
+
+}
+.button1 .tooltip{
+    position: relative;
+    background-color: gray;
+    color: white;
+    padding-left: 4px;
+    padding-right: 8;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -13px;
+    opacity:0;
+}
+.button1:hover .tooltip{
+    opacity: 1;
+}
+.ut4{
+    height: 30px;
+    margin-bottom: px;
+}
+.button2{ 
+   border-radius: 20px;
+   height: 40pxpx;
+   width: 40px;
+   border:none;
+   display:flex;
+   align-items: center;
+   padding-right: 35px;
+   padding-top: 9px;
+
+}
+.right{
+width: 200px;
+align-items: center;
+display:flex;
+justify-content: space-between;
+margin-right: 20px;
+flex-shrink: 0;
+}
+
+.ut5{
+    height: 24px;
+}
+.ut6{
+    height: 24px;
+}
+.ut7{
+    height: 24px;
+}
+.ut7x{
+    position: relative;
+}
+.count{
+    position: absolute;
+    background-color: red;
+    color: white;
+    top: -2px;
+    right: -5px;
+    font-family: Roboto,Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    padding-right:5px ;
+    padding-top: 2px;
+    border-radius: 10px;
+}
+.ut8{
+    height: 32px;
+    border-radius: 16px;
+}

@@ -1,0 +1,23 @@
+P{
+    font-family: roboto,Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(216, 222, 227);
+}
+body{
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    padding-left:0px ;
+    padding-right: 0px;
+    background-color: rgb(156, 79, 142);
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    min-height: 100vh;
+}
+@media screen and (max-width:900px){
+    body{
+        padding-top:180px;
+    }
+   
+}
