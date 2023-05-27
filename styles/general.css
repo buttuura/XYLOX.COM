@@ -22,18 +22,36 @@ body{
    
 }
 table{
-    width: 100%;
-    border: 1px solid #ffffff;
+    width: 90%;
+    border:2px solid #000000;
+    border-style: dashed;
+    margin: 50px;
 }
 th{
-    font-weight: 400; 
+    font-weight: 400px; 
     text-align: left;
-    border: solid #ffffff
+    border: 1px solid #090000;
+    background-color: rgb(36, 249, 7);
 
 }
 td{
-    border: solid #ffffff
+    border:1px solid #000000;
+    text-align: center;
+
 }
 table, tr,th {
     border-collapse:collapse;
+}
+.free_movie{
+    color:yellowgreen;
+   border: 4px solid;
+   background-color: black;
+   width: 90%;
+   height: 150px;
+   margin: 50px;
+   font-size: 30px;   
+}
+.free_movie a{
+    text-decoration: none;
+    color:aliceblue
 }
