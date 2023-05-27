@@ -43,13 +43,14 @@ table, tr,th {
     border-collapse:collapse;
 }
 .free_movie{
-    color:yellowgreen;
+     color:yellowgreen;
    border: 4px solid;
    background-color: black;
    width: 90%;
-   height: 150px;
+   height: fit-content;
    margin: 50px;
-   font-size: 30px;   
+   font-size:medium; 
+   padding: 4px; 
 }
 .free_movie a{
     text-decoration: none;
