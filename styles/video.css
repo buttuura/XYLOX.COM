@@ -7,6 +7,20 @@
 .img{
    width: 100%;
 } 
+ .img2{
+   height: 180px;
+   width: 100%;
+
+}
+.img1 , .img3,.img0{
+   height: 180px;
+   width: 100%;
+
+}
+@media screen and (max-width:900){
+
+    
+}
 .video-author,
 .video-stat{
     font-size: 12px;
