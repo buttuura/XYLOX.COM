@@ -40,6 +40,16 @@ ul li{
 }
 .copamy_infomation{
     color: aliceblue;
-    font-size: 8px;
+    font-size: 10px;
     padding: 3px;
+}
+.app{
+    display: flex;
+    flex-wrap: nowrap;
+}
+@media screen and (max-width:900px){
+
+    .copy_rights{
+        font-size: 10px;
+    }
 }
