@@ -1,13 +1,45 @@
 .footer{
     background-color: black;
-    height:auto;
-    color:white;
+    height:fit-content;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
     position: absolute;
     bottom:0px;
     width: 100%;
     float: left;
+    flex-direction:row;
+    align-items: end;
+}
+.social_media_apps{
+    display: flex;
+    justify-content: start;
     flex-direction: column;
+    flex-wrap: nowrap;
+}
+.icon{
+    height: 25px;
+}
+ul{
+    padding: 0px;
+}
+ul li{
+    float: left;
+    list-style: none;
+    margin: 8px;
+
+}
+.copy_rights{
+    display:flex;
+    float: left;
+    align-items: end;
+    color:white;
+
+}
+.footer_company_logo{
+    height: 28px;
+}
+.copamy_infomation{
+    color: aliceblue;
+    font-size: 8px;
+    padding: 3px;
 }
