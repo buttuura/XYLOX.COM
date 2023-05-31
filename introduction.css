@@ -7,6 +7,24 @@
     height: 90vh;
     background-size: cover;
 }
+.Air_time_button{
+    height: 50px;
+    width: fit-content;
+    border:solid green;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size:xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px;
+    color:rgb(241, 136, 0);
+}
+.Air_time_button:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+    transition: .5s;
+    color: red;
+
+}
 .outer{
     background-color: hsla(144, 85%, 47%, 0.192);
     height: 90vh;
