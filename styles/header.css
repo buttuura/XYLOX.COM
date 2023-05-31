@@ -7,7 +7,7 @@
     top:0px;
     left:0px;
     right: 0px;
-    background-color:rgba(78, 212, 78, 0.5);
+    background-color:rgba(0, 0, 0, 0.7);
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-block-color: rgb(232, 227, 227);
@@ -149,7 +149,6 @@ flex-shrink: none;
   color: #f2f2f2;
   text-align: left;
   padding:5px;
-  margin:-5px 10px;
   text-decoration: none;
   margin-left: -px;
   font-size: 17px;
@@ -161,9 +160,12 @@ flex-shrink: none;
      text-decoration: none;
      color:rgb(245, 251, 245);
  }
- .menu-bar ul li:hover{
-     background-color: orange;
+ .menu-bar ul li a:hover{
+    color: orange;
+ }.menu-bar ul li:focus-within,
+  .menu-bar ul li:hover{
      border-radius: 3px;
+     color:orange;
     }
  .menu-bar .icon {
         display: none;
@@ -172,20 +174,22 @@ flex-shrink: none;
  .sub-menu1{
      display: none;
  }
- .menu-bar ul li:focus-within .sub-menu1, 
   .menu-bar ul li:hover .sub-menu1{
      display: flex;
      position: absolute;
-     background:red;
-     border-radius: 1px;
+     background:rgb(34, 1, 1);
+     border-radius: 6px;
      justify-self: left;
-     width: 150px;
-     margin-top: 3px;
+     width: 160px;
+     margin-top: 1px;
      height:auto;
  }
  .sub-menu1 ul li{
     float: none;
 
+ }
+ li{
+    margin: 0px;
  }
  .menu-bar ul li:hover .sub-menu1 ul{
      display: block;
@@ -193,7 +197,7 @@ flex-shrink: none;
  }
  .menu-bar ul li:hover .sub-menu1 ul li{
      width: 100px;
-     margin-left:-30px;
+     margin-left:3px;
      border-bottom: 1px dotted #ffff;
      text-align: left;
  }
@@ -208,7 +212,7 @@ flex-shrink: none;
      padding-top: 15PX;
      padding-bottom: 15PX;
      padding-right: 30PX;
-     margin-left:-4px;
+     margin-left:4px;
      position: relative;
      top: 0;
      left: 0;
