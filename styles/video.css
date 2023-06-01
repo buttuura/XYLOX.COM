@@ -75,8 +75,6 @@
     grid-template-columns:1fr 1fr 1fr 1fr;
     row-gap: 20px;
     column-gap: 5px;
-    margin-top: 40px;
-    margin-left: 0px;
 }
 .time{
     background-color:yellow;
@@ -108,68 +106,5 @@
 }
 .what{
    height: 80px;
-
-}
-.slider_image{
-   overflow: hidden;
-
-
-}
-.slider_image .trans{
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: 20s slider infinite;
-}
-.slider_image .trans img{
-    width: 20%;
-    float: left;
-    height: 300px;
-
-}
-.intro_content{
-    background-color:rgba(0, 11, 6, 0.5);
-    position: absolute;
-    width: 100%;
-    margin: 0;
-    left:0;
-    height: 300px;
-    display: flex;
-    align-items: end;
-}
-.content{
-   color: azure;
-   font-size: large;
-   padding: 8px;
-}
-@keyframes slider{
-         0%{
-            left:0;
-         }
-         20%{
-            left:0;
-         }
-         25%{
-            left:-100%
-         }
-         45%{
-            left:-100%
-         }
-         50%{
-            left:-200%
-         }
-         70%{
-            left:-200%
-         }
-         75%{
-            left:-300%
-         }
-         95%{
-            left:-300%
-         }
-         100%{
-            left:-400%
-         } 
 
 }
