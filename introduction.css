@@ -130,3 +130,149 @@ background-image:url(img/toilet.jpg)
          } 
 
 }
+.movie_introduction{
+   background-image: url('img/netflix.jpg');
+   height: fit-content;
+}
+.movie_intro_content{
+   height: 400px;
+   background-color: rgba(7, 25, 79, 0.5);
+   display: flex;
+   align-items: center;
+}
+.movie_intro_text{
+   color: rgb(82, 169, 169);
+   width: 100%;
+display: flex;
+justify-content: center;
+font-size: larger;
+flex-direction: column;
+text-align: center;
+}
+.movie_container{
+   display: grid;
+   grid-template-columns:1fr 1fr 1fr 1fr;
+   row-gap: 20px;
+   column-gap: 20px;
+   margin-top: 20px;
+   margin-left: 20px;
+   margin-right: 20px;
+   width: 100%;
+   background-color: red;
+   overflow: hidden;
+
+
+}
+.movie_container_images{
+   background-color: blue;
+   border-radius: 10px;
+   height: fit-content;
+   
+
+
+}
+.movie_image{
+}
+.movie_intro_photo{
+   height: 200px;
+   width: 300px;
+   border-top-left-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.h1_movies{
+   font-size: 15px;
+   color: aliceblue;
+}
+.movie_photo_info {
+   margin: 7px;
+}
+#check{
+   display: none;
+}
+#check1{
+   display: none;
+}
+#check2{
+   display: none;
+}#check3{
+   display: none;
+}#check4{
+   display: none;
+}
+.more_readings{
+   display: none;
+   transition: 05s linear;
+}
+label{
+   display:inline-block;
+   margin-top: 15px;
+   color:yellowgreen;
+   text-decoration: underline;
+   cursor: pointer;
+
+}
+#check:checked ~ .more_readings{
+   display: block;
+
+}
+#check:checked ~ label{
+   visibility: hidden;
+}
+#check:checked ~ label:after{
+content: 'show less';
+display: block;
+visibility: visible;
+
+}
+#check1:checked ~ .more_readings{
+   display: block;
+
+}
+#check1:checked ~ label{
+   visibility: hidden;
+}
+#check1:checked ~ label:after{
+content: 'show less';
+display: block;
+visibility: visible;
+
+}
+#check2:checked ~ .more_readings{
+   display: block;
+
+}
+#check2:checked ~ label{
+   visibility: hidden;
+}
+#check2:checked ~ label:after{
+content: 'show less';
+display: block;
+visibility: visible;
+
+}
+#check3:checked ~ .more_readings{
+   display: block;
+
+}
+#check3:checked ~ label{
+   visibility: hidden;
+}
+#check3:checked ~ label:after{
+content: 'show less';
+display: block;
+visibility: visible;
+
+}
+#check4:checked ~ .more_readings{
+   display: block;
+
+}
+#check4:checked ~ label{
+   visibility: hidden;
+}
+#check4:checked ~ label:after{
+content: 'show less';
+display: block;
+visibility: visible;
+
+}
