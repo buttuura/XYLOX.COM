@@ -1,6 +1,6 @@
 .video-title{
     margin-top: 0;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -53,6 +53,7 @@
 .imgg{
     margin-bottom: 8px;
     position: relative;
+  
 }
 
 .Download{
@@ -67,12 +68,12 @@
 
 .video-grid{
    display: grid;
-   grid-template-columns: 50px 1fr;
+   grid-template-columns: 1fr 1fr;
 }
 
 .container{
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     row-gap: 20px;
     column-gap: 5px;
 }
@@ -84,12 +85,13 @@
     font-size: 14px;
     font-weight: 500;
     right: 4px;
-    bottom: 10px;
+    top: 10px;
     padding-left:2px;
     padding-right: 2px;
     padding-bottom: 2px;
     padding-top:4px;
-    border-radius: 50px;
+    
+   
 
 
 }
