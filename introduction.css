@@ -199,6 +199,9 @@ text-align: center;
 }#check4{
    display: none;
 }
+#check5{
+   display: none;
+}
 .more_readings{
    display: none;
    transition: 05s linear;
@@ -274,5 +277,24 @@ visibility: visible;
 content: 'show less';
 display: block;
 visibility: visible;
+
+}
+#check5:checked ~ .more_readings{
+   display: block;
+
+}
+#check5:checked ~ label{
+   visibility: hidden;
+}
+#check5:checked ~ label:after{
+content: 'show less';
+display: block;
+visibility: visible;
+
+}
+.video_details{
+   color:brown;
+   font-size: 11px;
+   word-spacing: 1px;
 
 }
