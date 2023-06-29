@@ -1,0 +1,91 @@
+.plumbing_introduction_cover{
+    width: 100%;
+    height: auto;
+    background-color: rgba(28, 63, 72, 0.5);
+}
+.plumbing_inntroduction_cover_content{
+    margin-top: 20px;
+    margin-left: 29px;
+}
+.plumbing_inntroduction_cover_image{
+    
+
+}
+.plumbers_logo{
+    height: 150px;
+    border-radius: 75px;
+    margin: 20px;
+}
+.hd1_plumbing{
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.hd2_plumbing{
+    margin: 0px;
+}
+.service_request,.contact_button{
+    height: 70px;
+    width: 250px;
+    border-radius: 125px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Noto Serif Ottoman Siyaq', serif;
+    font-weight: 400;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 10px;
+}
+.service_request{
+    background-color: rgb(14, 2, 255);
+    border-style: solid;
+    border-color: rgb(14, 2, 255);
+}
+.service_request:hover{
+    background-color: rgb(255, 255, 255);
+    color:   rgb(14, 2, 255);
+    border-style: solid;
+    border-color:  rgb(14, 2, 255);
+}
+.contact_button{
+    background-color: transparent;
+    border-style: solid;
+    border-color: white;
+}
+.contact_button:hover{
+    border-style: solid;
+    border-color: rgb(14, 2, 255);
+    background-color:   rgb(14, 2, 255);
+}
+.introduction_main_content{
+    display: block;
+    text-align: center;
+    color: white;
+}
+.plumbing_content{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 20px;
+    height:fit-content;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-color: green;
+    width: fit-content;
+}
+.plumbing_photo{
+    height: 300px;
+    width: 500px;
+}
+.plumbing_content_info{
+    color: white;
+    position: relative;
+
+}
+.plumbing_photo_text{
+    width: 500px;
+    background-color: rgba(30, 0, 255, 0.5);
+    position: absolute;
+    bottom:0px;
+    height: 150px;
+
+
+}
