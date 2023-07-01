@@ -1,3 +1,9 @@
+.plumbing_inntroduction{
+    position: relative;
+}
+.plumbing_content_intro{
+    position: absolut;
+}
 .plumbing_introduction_cover{
     width: 100%;
     height: auto;
@@ -7,8 +13,11 @@
     margin-top: 20px;
     margin-left: 29px;
 }
-.plumbing_inntroduction_cover_image{
-    
+.plumbing_inntroduction_cover_text h1{
+    font-size:100px; margin-bottom: 20px;font-family: 'Agdasima', sans-serif;line-height: 70px;color: rgb(255, 255, 255); text-align: center;
+}
+.plumbing_inntroduction_cover_text h2{
+    font-size:40px; margin-bottom: 30px;font-family: 'Agdasima', sans-serif;color: rgb(255, 255, 255); 
 
 }
 .plumbers_logo{
@@ -56,24 +65,23 @@
     background-color:   rgb(14, 2, 255);
 }
 .introduction_main_content{
-    display: block;
     text-align: center;
     color: white;
 }
 .plumbing_content{
-    display:grid;
-    grid-template-columns: 1fr 1fr;
+    display:flex;
+    justify-content: center;
     row-gap: 20px;
     column-gap: 20px;
-    height:fit-content;
-    margin-left: 70px;
-    margin-right: 70px;
+    flex-wrap: wrap;
     background-color: green;
     width: fit-content;
+    grid-column: 40px;
 }
 .plumbing_photo{
-    height: 300px;
-    width: 500px;
+    max-width: 100%;
+    width: 600px; 
+    height: 500px;
 }
 .plumbing_content_info{
     color: white;
@@ -81,11 +89,33 @@
 
 }
 .plumbing_photo_text{
-    width: 500px;
+    width: auto;
     background-color: rgba(30, 0, 255, 0.5);
     position: absolute;
     bottom:0px;
-    height: 150px;
+    height: 200px;
 
 
 }
+.company_image{
+    width: 100%;
+}
+    span{
+        color: aliceblue;
+    }
+    .company_over_view h1,h2{
+        color: antiquewhite;
+        text-align: center;
+
+    }
+    @media (max-width: 900px){
+        .plumbing_inntroduction_cover_text h1{
+            font-size: 50px;
+        }
+        .plumbing_inntroduction_cover_text h2{
+            font-size: 30px;
+        }
+        /*.plumbing_photo{
+            height: 300px;
+            width: 400px;*/
+        }
