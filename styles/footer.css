@@ -48,12 +48,37 @@ ul li{
     flex-wrap: nowrap;
 }
 .closing{
-    display: flex;
-    justify-content: space-between;
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+    height: 300px;
 }
 .closing_info{
-    background-color: blue;
+    background-color: rgb(30, 30, 30);
+    padding: 60px;
+}
+.About_xyloxcom span{
+    font-size: 20px;
+    color: antiquewhite;
+    font-family: 'Noto Serif Ottoman Siyaq', serif;
+    font-weight: 400;
+}
+.About_xyloxcom ol{
+    margin: 0px;
+    padding: 0px;
+
+}
+.About_xyloxcom ol li{
+    list-style: none;
+    font-size: medium;
+    color: beige;
+    line-height: 50px;
+}
+a{
+    text-decoration:none ;
+}
+.About_xyloxcom ol li:hover{
+    color: yellowgreen;
 }
 @media screen and (max-width:900px){
 
