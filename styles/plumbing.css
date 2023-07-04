@@ -100,13 +100,22 @@
 .company_image{
     width: 100%;
 }
-    span{
-        color: aliceblue;
-    }
+        
     .company_over_view h1,h2{
         color: antiquewhite;
         text-align: center;
 
+    }
+    .company_over_view p{
+        color: aliceblue;
+        margin: 20px;
+        font-family: 'Noto Serif Ottoman Siyaq', serif;
+    }
+    .company_over_view text{
+      display: flex;
+      justify-content: center;
+        text-align: center;
+        color: azure;
     }
 
     @media (max-width: 900px){
