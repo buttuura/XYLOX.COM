@@ -1,14 +1,18 @@
 footer{
-    background-color: black;
-    height:fit-content;
-    display: flex;
-    justify-content: space-between;
     position: absolute;
+    height:fit-content;
+    width: 100%;
     bottom:0px;
+}
+.down_part{
     width: 100%;
     float: left;
     flex-direction:row;
     align-items: end;
+    background-color: rgb(22, 22, 22);
+    height:fit-content;
+    display: flex;
+    justify-content: space-between;
 }
 .social_media_apps{
     display: flex;
@@ -52,13 +56,15 @@ ul li{
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 20px;
     height: 300px;
+    top:100px
 }
 .closing_info{
     background-color: rgb(30, 30, 30);
-    padding: 60px;
+    padding-top: 40px;
+    padding-left: 10px;
 }
 .About_xyloxcom span{
-    font-size: 20px;
+    font-size: 30px;
     color: antiquewhite;
     font-family: 'Noto Serif Ottoman Siyaq', serif;
     font-weight: 400;
@@ -66,23 +72,38 @@ ul li{
 .About_xyloxcom ol{
     margin: 0px;
     padding: 0px;
-
+    display: block;
 }
 .About_xyloxcom ol li{
     list-style: none;
-    font-size: medium;
+    font-size:small;
     color: beige;
-    line-height: 50px;
+    line-height: 20px;
+    white-space: nowrap;
 }
 a{
     text-decoration:none ;
 }
+a:hover{
+    text-decoration:underline ;
+}
 .About_xyloxcom ol li:hover{
     color: yellowgreen;
+    text-decoration: underline;
 }
 @media screen and (max-width:900px){
 
     .copy_rights{
         font-size: 10px;
+    }
+    .About_xyloxcom span{
+        max-width:0px;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .About_xyloxcom ol li{
+        font-size: 15px;
+        padding: 0%;
+        font-weight: lighter;
     }
 }
