@@ -23,26 +23,6 @@ h1{
 .details{
     height: fit-content;
 }
-@keyframes slider{
-0%,100%{
-background-image:url(img/arch2.jpg)
-
-};
-
-25%{
-background-image:url(img/lebara.jpg)
-
-}
-50%{
-background-image:url(img/img18.png)
-
-}
-75%{
-background-image:url(img/toilet.jpg)
-
-}
-}
-
 .intro-text{
     color:rgb(255, 255, 255);
     font-size: 50px;
@@ -181,8 +161,8 @@ text-align: center;
 
 
 }
-.movie_image{
-}
+/*.movie_image{
+}*/
 .movie_intro_photo{
    height: 200px;
    width: 300px;
@@ -307,4 +287,15 @@ visibility: visible;
    font-size: 11px;
    word-spacing: 1px;
 
+}
+@keyframes change{
+   0%{
+   background-image: url(img/arch4.jpeg)
+}
+50%{
+   background-image: url(img/arch3.jpeg)
+}
+100%{
+   background-image: url(img/arch4.jpeg)
+}
 }
