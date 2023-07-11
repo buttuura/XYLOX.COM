@@ -1,0 +1,216 @@
+.arch_introduction{
+    width: 100%;
+    height: 92vh;
+    /*overflow: hidden;*/
+    background-image:url(img/arch1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    animation: change 20s infinite ease-in-out;
+    transition-property:initial;
+ }
+ .arch_intro_content{
+    width: 100%;
+    height: 130vh;
+    background-color: gold;
+ }
+ .arch_intro_text{
+  text-align: center;
+  padding-top: 100px;
+  height: fit-content;
+ }
+ .arch_intro_text h1{
+  font-size:100px; 
+  margin-bottom: 20px;font-family: 'Agdasima', sans-serif;
+  line-height: 70px;
+  color: rgb(255, 255, 255); 
+  text-align: center;
+
+ }
+@media screen and (min-width:600px) and (max-width:900) {
+  .arch_intro_content{
+    width: 100%;
+    height: 990px;
+ }
+ }
+ @media screen and (max-width:600px){
+  .arch_intro_content{
+    width: 100%;
+    height:990px;
+ }
+ }
+ @media screen and (max-width:500px){
+  .arch_intro_content{
+    width: 100%;
+    height:1200px;
+ }
+ }
+ @media screen and (max-height:400px){
+  .arch_intro_content{
+    width: 100%;
+    height:800px;
+ }
+ }
+ .test{
+   background-color: rgba(24, 24, 113,0.5);
+   width: 100%;
+    height: 92vh;
+    position:relative;
+ }
+ .arch_intro_info{
+ /* background-color: blueviolet;*/
+   height: auto;
+   position:absolute ;
+   right: 20px;
+   top: 500px;
+   left: 20px;
+   display: grid;
+   grid-template-columns: 500px 1fr 1fr;
+   column-gap: 20px;
+ }
+ @media only screen and (max-width: 700px){
+.arch_intro_info{
+  top: 600px;
+}
+} 
+ .arch_intro_info_cont{
+  border-radius: 20px; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  width:auto;
+  background-color: green;
+  padding: 20px;
+ }
+ main{
+  background-color: rgba(0, 0, 0, 0.7);
+ }
+ .main_arch{
+  display: flex;
+  flex-wrap: n0-wrap;
+  column-gap: 20px;
+  padding-top: 20px;
+  padding-left: 5px ;
+ }
+ .main_arch_image{
+  width: 700px
+ }
+ .main_arch_image_style{
+  height: 400px;
+  width: 100%;
+ }
+ .main_arch_text{
+  width: 500px;
+  border-radius: 4px;
+  padding: 20px;
+ }
+ .main_arch_text span{
+  font-size: 30px;
+  color: azure;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;;
+ }
+ .main_arch_text ul li{
+  color: honeydew;
+  font-weight: 0px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+ }
+ .main_arch_text ul a{
+  font-size: 30px;
+  font-weight: 1000;
+  text-shadow: 20px;
+  text-decoration: none;
+  color: brown;
+ }
+ .construction_info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding-top: 20px;
+  padding-left: 5px;
+  padding-left: 5px;
+ }
+
+ .construction_info_text span{
+  font-size: 21px;
+  font-weight: 400;
+  color:rosybrown;
+  font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .construction_inf_pic{
+  height: 300px;
+ }
+ .construction_info_content_subdiv{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  row-gap: 20px;
+ }
+ .construction_inf_pic_subdiv{
+  height: 100px;
+ }
+ @media  screen and (max-width: 900px) {
+  .construction_info{
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+   .construction_inf_pic{
+    max-width: 100%;
+    width: 600px; 
+    height: 300px;
+  } 
+ .more_div{
+  display: flex;
+  column-gap: 20px;
+ }
+ .galler_photo{
+  height: 100px;
+ }}
+ @media screen and (max-width:900px){
+        
+  .arch_intro_info{
+    /*background-color: blueviolet;*/
+     display: flex;
+     flex-direction: column;
+     row-gap: 20px;
+     height: fit-content;
+     padding-bottom: 25px;
+
+   }
+ .arch_intro_info_cont{
+  height: fit-content;
+ }
+ .main_arch{
+  display: flex;
+  flex-wrap: wrap;
+ 
+
+ }
+ .main_arch_image{
+  width: 100%;
+}
+.main_arch_text{
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 10px;
+ }}
+ @media screen and (max-width:600px){
+  .arch_intro_info{
+     display: flex;
+     flex-direction: column;
+     row-gap: 20px;
+     height: fit-content;
+ }}
+ /* background-color: rgb(57, 49, 49);
+  background-image:
+  linear-gradient(335deg, #b00 23px, transparent 23px),
+  linear-gradient(155deg, #b00 23px, transparent 23px),
+  linear-gradient(335deg, #b00 23px, transparent 23px),
+  linear-gradient(155deg, rgb(204, 0, 0) 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px,  4px 35px , 29px 31px, 34px 6px;*/
