@@ -15,6 +15,9 @@ body{
     position: relative;
     min-height: 100vh;
 }
+html{
+    margin: 0%;
+}
 @media screen and (max-width:900px){
     body{
         padding-top:180px;
@@ -27,16 +30,18 @@ table{
     border:2px solid #000000;
     border-style: dashed;
     margin-right: 30px;
+    color: aqua;
 }
 th{
     font-weight: 400px; 
     text-align: left;
     border: 1px solid #090000;
-    background-color: rgb(36, 249, 7);
+    background-color: rgb(8, 46, 3);
+    gap: 1px;
 
 }
 td{
-    border:1px solid #000000;
+    border:1px solid #290f0f;
     text-align: center;
 
 }
@@ -53,6 +58,40 @@ table, tr,th {
 .free_movie a{
     text-decoration: none;
     color:rgb(107, 182, 247)
+}
+.simo_info{
+    color:rgb(0, 0, 0);
+    width:auto;
+    height: fit-content;
+    font-size:x-large; 
+    padding: 8px;
+
+}
+.simo_info h1{
+    text-align: center;
+    font-style: italic;
+}
+.simo_info span{
+    text-align: center;
+    font-style: italic;
+}
+.momo{
+    height: 200px;
+    width: 400px;
+}
+.marketing{
+    border-style:solid;
+    background-color: rebeccapurple;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.acc_img_info{
+    height: 100%;
+    width: 100%;
+}
+.simo_info p{
+    color: black;
+    font-weight: bolder;
 }
 ::-webkit-scrollbar {
     width: 10px;}
