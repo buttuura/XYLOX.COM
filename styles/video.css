@@ -6,6 +6,7 @@
 }
 .img{
    width: 100%;
+   height: 50%;
 } 
  .img2{
    height: 180px;
@@ -16,11 +17,7 @@
    height: 180px;
    width: 100%;
 
-}
-@media screen and (max-width:900){
-
-    
-}
+}  
 .video-author,
 .video-stat{
     font-size: 12px;
@@ -42,7 +39,7 @@
 }
 
 .video-info{
-    background-color:green;
+    /*background-color:green;*/
 }
 
 .photo11,.photo{
@@ -51,9 +48,18 @@
 }
 
 .imgg{
-    margin-bottom: 8px;
+    margin-bottom: px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   
+}
+@media (max-width:600px) {
+    .imgg{
+        top:0px;
+    }
+       
 }
 
 .Download{
@@ -69,31 +75,6 @@
 .video-grid{
    display: grid;
    grid-template-columns: 1fr 1fr;
-}
-
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 20px;
-    column-gap: 5px;
-}
-.time{
-    background-color:yellow;
-    color: white;
-    position: absolute;
-    font-family: Roboto,Arial;
-    font-size: 14px;
-    font-weight: 500;
-    right: 4px;
-    top: 10px;
-    padding-left:2px;
-    padding-right: 2px;
-    padding-bottom: 2px;
-    padding-top:4px;
-    
-   
-
-
 }
 .whatsapp{
     display: flex;
@@ -112,7 +93,6 @@
 }
 .content2{
     display: flex;
-    
     flex-wrap: wrap;
     align-items: center;
     /* background-color:	rgba(0, 0, 47,0.3); */
