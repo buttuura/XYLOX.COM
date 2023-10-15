@@ -1,3 +1,10 @@
+
+.container{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   row-gap: 20px;
+   column-gap: 5px;
+}
 .movie_intro_content{
     height: 400px;
     background-color: rgba(28, 0, 65, 0.5);
@@ -10,7 +17,7 @@
  display: flex;
  justify-content: center;
  font-size: larger;
- flex-direction: column;
+ flex-direction: column; 
  text-align: center;
  }
  .movie_container{
