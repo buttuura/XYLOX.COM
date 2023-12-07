@@ -66,7 +66,7 @@ h1{
 
 }
 .intro_content{
-    background-color:rgba(16, 0, 30, 0.7);
+    background-color:rgba(16, 0, 30, 0.5);
     position: absolute;
     width: 100%;
     margin: 0;
@@ -115,7 +115,7 @@ h1{
 }
 .movie_introduction{
    background-image: url('img/netflix.jpg');
-   height: fit-content;
+   height: 100vh;
 }
 .plumbing_content_intro{
    background-image: url('img/niko_cover.png');
@@ -123,164 +123,6 @@ h1{
    background-repeat: no-repeat;
    background-size: cover;
     
-}
-.movie_intro_content{
-   height: 400px;
-   background-color: rgba(28, 0, 65, 0.5);
-   display: flex;
-   align-items: center;
-}
-.movie_intro_text{
-   color: rgb(82, 169, 169);
-   width: 100%;
-display: flex;
-justify-content: center;
-font-size: larger;
-flex-direction: column;
-text-align: center;
-}
-.movie_container{
-   display: grid;
-   grid-template-columns:1fr 1fr 1fr 1fr;
-   row-gap: 20px;
-   column-gap: 20px;
-   margin-top: 20px;
-   margin-left: 20px;
-   margin-right: 20px;
-   width: 100%;
-   background-color: red;
-   overflow: hidden;
-
-
-}
-.movie_container_images{
-   background-color: blue;
-   border-radius: 10px;
-   height: fit-content;
-   
-
-
-}
-/*.movie_image{
-}*/
-.movie_intro_photo{
-   height: 200px;
-   width: 300px;
-   border-top-left-radius: 20px;
-   border-top-right-radius: 20px;
-}
-.h1_movies{
-   font-size: 15px;
-   color: aliceblue;
-}
-.movie_photo_info {
-   margin: 7px;
-}
-#check{
-   display: none;
-}
-#check1{
-   display: none;
-}
-#check2{
-   display: none;
-}#check3{
-   display: none;
-}#check4{
-   display: none;
-}
-#check5{
-   display: none;
-}
-.more_readings{
-   display: none;
-   transition: 05s linear;
-}
-label{
-   display:inline-block;
-   margin-top: 15px;
-   color:yellowgreen;
-   text-decoration: underline;
-   cursor: pointer;
-
-}
-#check:checked ~ .more_readings{
-   display: block;
-
-}
-#check:checked ~ label{
-   visibility: hidden;
-}
-#check:checked ~ label:after{
-content: 'show less';
-display: block;
-visibility: visible;
-
-}
-#check1:checked ~ .more_readings{
-   display: block;
-
-}
-#check1:checked ~ label{
-   visibility: hidden;
-}
-#check1:checked ~ label:after{
-content: 'show less';
-display: block;
-visibility: visible;
-
-}
-#check2:checked ~ .more_readings{
-   display: block;
-
-}
-#check2:checked ~ label{
-   visibility: hidden;
-}
-#check2:checked ~ label:after{
-content: 'show less';
-display: block;
-visibility: visible;
-
-}
-#check3:checked ~ .more_readings{
-   display: block;
-
-}
-#check3:checked ~ label{
-   visibility: hidden;
-}
-#check3:checked ~ label:after{
-content: 'show less';
-display: block;
-visibility: visible;
-
-}
-#check4:checked ~ .more_readings{
-   display: block;
-
-}
-#check4:checked ~ label{
-   visibility: hidden;
-}
-#check4:checked ~ label:after{
-content: 'show less';
-display: block;
-visibility: visible;
-
-}
-#check5:checked ~ .more_readings{
-   display: block;
-
-}
-#check5:checked ~ label{
-   visibility: hidden;
-}
-#check5:checked ~ label:after{
-content: 'show less';
-display: block;
-visibility: visible;
-
 }
 .video_details{
    color:brown;
@@ -298,4 +140,11 @@ visibility: visible;
 100%{
    background-image: url(img/arch4.jpeg)
 }
+
+}
+.child_intro{
+   background-image: url('img/alex1.jpg');
+   height: fit-content;
+   background-repeat: no-repeat;
+   background-size: cover
 }
