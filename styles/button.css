@@ -1,12 +1,3 @@
-.joinbtn,.loginbtn{
-    height: 30px;
-    color:white;
-    background-color: transparent;
-    width: 70px;
-    border-radius: 11px;
-    cursor: pointer; 
-    border-color:white;
-}
 .Air_time_button{
     height: 50px;
     width: fit-content;
