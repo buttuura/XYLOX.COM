@@ -44,56 +44,88 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
      
 </head>
 <body>
-        <!--header section-->
-        <div class="header">
-            <div class="left">
-              <a href="index.html"><img class="ut1" src="img/xx.jpg"></a>
-            </div>
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5S4JXK59"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-            <div class="middle">
-                <input class="search-bar" type="text" placeholder="Search">
-                 <button class="button1">
-                     <img class="ut3" src="img/icons/ut3.svg">
-                     <div class="tooltip">search</div>
-                 </button>
+    <!--HEADER SECTION START-->
+    <nav class="header">
+        <div class="left">
+            <a href="index.html"><img class="ut1" src="img/xx.jpg" alt="Logo"></a>
+        </div>
+
+        <!-- Hamburger Menu Button -->
+        <button class="mobile-toggle" aria-label="Menu">
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
-            <div class="nav">
-     <div class="menu-bar">
-        <ul class="ul" id="mymenu-bar">
-            <li>Art work
-                <div class="sub-menu1">
-                    <ul>
-                        <li><a href="Movie_posters.html">Movieposters</a></li>
+        </button>
+
+        <div class="middle">
+            <div class="search-container">
+                <input class="search-bar" type="text" placeholder="Search">
+                <button class="button1">
+                    <img class="ut3" src="img/icons/ut3.svg" alt="Search">
+                    <div class="tooltip">search</div>
+                </button>
+            </div>
+        </div>
+
+        <div class="nav">
+            <ul class="menu-list">
+                <!-- Art Work Menu -->
+                <li class="menu-item">
+                    <button class="dropdown-toggle">Art work</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="Movie_posters.html">Movie posters</a></li>
                         <li><a href="Graphics.html">Graphics</a></li>
                         <li><a href="Movies.html">Movies</a></li>
                     </ul>
-                </div>
-            </li>
+                </li>
 
-            <li><a href="About.html">About</a>
-            </li>
-    
-            <li>Services
-                <div class="sub-menu1">
-                    <ul>
+                <!-- Recharge Menu -->
+                <li class="menu-item">
+                    <button class="dropdown-toggle">Recharge</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="recharge.html">Airtime</a></li>
+                        <li><a href="SIMOSELLER.html" target="_blank">SIMO Services</a></li>
+                    </ul>
+                </li>
+
+                <!-- Services Menu -->
+                <li class="menu-item">
+                    <button class="dropdown-toggle">Services</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="plumbling.html">Plumbing</a></li>
                         <li><a href="architectural.html">Architectural</a></li>
                         <li><a href="Granite_marble_terrazzo.html">Terrazzo</a></li>
-                        <li><a href="https://toiletemptying.com" target="_blank">Toiletemptying</a></li>
+                        <li><a href="https://toiletemptying.com" target="_blank">Toilet emptying</a></li>
                     </ul>
-                </div>
-            </li>
-            <li><a href="recharge.html">Recharge</a></li>
-            <li class="icon">
-                <a><img src="img/icons/ut2.svg" class="humbager-menu"> </a>
-            </li>
-        </ul> 
-       </div>
-    </div>
-    <div class="right">
-        <a href="join.html"><button class="joinbtn">Join</button></a>
-        <a href="login.html"><button class="loginbtn">Login</button></a>
-      </div>
+                </li>
+
+               <!-- About Link -->
+                <li class="menu-item">
+                    <a href="About.html" class="nav-link">About</a>
+                    <div class="auth-buttons">
+                        <a href="join.html" class="btn joinbtn">Join</a>
+                        <a href="login.html" class="btn loginbtn">Login</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <a href="join.html" class="btn joinbtn">Join</a>
+            <a href="login.html" class="btn loginbtn">Login</a>
+        </div>
+         
+       
+    </ul>
 </div>
+    </nav>
          <!--HEADER SECTION END HERE-->
 
      <!--introduction section start-->
@@ -298,7 +330,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
 </footer> 
    <!--FOOTER ENDS-->
-
+ <script src="script/script.js"></script>
     </div>
     </body>
   </html>
