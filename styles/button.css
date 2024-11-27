@@ -35,3 +35,19 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-radius: 4px;
 }
+.about_btn{
+    height: 50px;
+    width: 200px;
+    border-radius:10px ;
+    background-color:rgba(6, 6, 188,0.2);
+    box-shadow: inset;
+    color: aliceblue;
+    font-size: 20px;
+}
+.about_btn:hover{
+    background-color: yellowgreen;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: 0.5s;
+    color: rgb(36, 20, 1);
+}
