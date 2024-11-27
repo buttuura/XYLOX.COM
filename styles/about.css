@@ -1,0 +1,188 @@
+ body{
+    background-color: aliceblue;
+    display: block;
+ }
+main{
+    margin-top:0px;
+   /* background-color: aqua;*/
+    
+}
+.about-hero{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+}
+.about-hero-image .about_image{
+        width: 100%;
+        }
+.about-hero-info{
+    width: 100%;
+}
+.about-hero-text{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0,0.6);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+h1{
+    font-size: 40px;
+}
+.about_us_headline,
+.about_infor_content{
+    width: 50%;
+    margin-left: 30%;
+    font-size: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-content-info-text{
+    display: flex;
+    flex-wrap: nowrap;
+    font-size:1.2vw;
+    justify-content: center;
+}
+.about-mission{
+    background-color: rgb(1, 149, 156);
+    transition: transform .2s;
+
+}
+.about-vision{
+    background-color:rgb(1, 149, 156);
+    transition: transform .2s;
+}
+.about-value{
+    background-color:rgb(1, 149, 156);
+    transition: transform .2s;
+}
+.about-mission, .about-vision, .about-value{
+    border-radius: 2000px;
+    text-wrap: wrap;
+    width: 35vw;
+    height: 35vw;
+    padding: 2%;
+    margin: 5px;
+    box-shadow: 10px 10px 5px 12px lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+/*.about-mission:hover{
+    transform: scale(1.1);
+    margin-left: 2.7%;
+
+}
+.about-vision:hover{
+    transform: scale(1.1);
+}
+.about-value:hover{
+    
+    transform: scale(1.1);
+    margin-right: 20px;
+}*/
+@media screen and (max-width: 900px){
+    .about-content-info-text{
+        display: flex;
+        flex-wrap:wrap;
+        font-size: 1.4vw;
+    }
+    .about-mission, .about-vision, .about-value{
+        border-radius: 2000px;
+        text-wrap: wrap;
+        width: 45vw;
+        height:45vw;
+        padding: 2%;
+        margin: 5px;
+        box-shadow: 10px 10px 5px 12px lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .about_infor_content{
+       width: 80%;
+       margin: 5%;
+       color: rgb(246, 255, 255);
+       font-weight: 0;
+    }
+}
+@media screen and (max-width: 500px){
+    .about-content-info-text{
+        display: flex;
+        flex-wrap:wrap;
+        font-size: 3vw;
+    }
+    .about-mission, .about-vision, .about-value{
+        border-radius: 2000px;
+        text-wrap: wrap;
+        width: 100vw;
+        height: 100vw;
+        padding: 2%;
+        margin: 5px;
+        box-shadow: 10px 10px 5px 12px lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    .about_infor_content{
+        width: 80%;
+        margin: 5%;
+        color: rgb(246, 255, 255);
+        font-weight: 0;
+     }
+}
+
+h2{
+    color: aliceblue;
+}
+.about-mission-image, .about-vision-image, .about-value-image{
+    width: 25%;
+    height: 25%;
+}
+.less{
+    display: none;
+    background-color: green;
+}
+.less3{
+    cursor: pointer;
+}
+hr{
+    width: 100%;
+}
+.faq{
+    margin-top: 20px;
+    margin-bottom: 50%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+/*.accordion{
+    background-color: aqua;
+}
+.accordion2{
+    background-color: brown;
+}
+.accordion3{
+    background-color: blue;
+}
+.accordion4{
+    background-color: darkorange;
+}*/
+.faq h2{
+    color: black;
+}
+.faq p{
+    color: black;
+}
+.faq span{
+    font-weight: 0;
+}
