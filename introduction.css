@@ -148,3 +148,7 @@ h1{
    background-repeat: no-repeat;
    background-size: cover
 }
+.about-hero-info{
+   background-image: url("img/group_pic.jpg");
+   background-repeat: no-repeat;
+}
