@@ -51,3 +51,17 @@
     transition: 0.5s;
     color: rgb(36, 20, 1);
 }
+.grn_qrt_btn{
+    height: 30px;
+    width: 130px;
+    background-color: rgb(0, 37, 16);
+    border-radius: 10px;
+    border: none;
+    color: beige;
+}
+.grn_qrt_btn:hover{
+background-color: orange;
+cursor: pointer;
+transition: 0.9s;
+color: rgb(0, 37, 16);  ;
+}
