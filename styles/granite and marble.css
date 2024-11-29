@@ -1,0 +1,109 @@
+.backround-video{
+    position: relative;
+}
+.Granite_intro{
+    background-color:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0%;
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Granite_services_intro{
+    font-size: 5vw;
+    margin-left:5%;
+    height: 50px;
+    color: aliceblue;
+    z-index: 100;
+}
+
+.stone{
+    margin: 10px;
+}
+.stone p{
+    font-size: 20px;
+   text-align:  center;
+   color: azure;
+}
+.stone_image{
+    width: 100%;
+    height: 250px;
+
+    overflow: hidden;
+    border-radius: 5px;
+}
+.stone_image:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.introduction_content{
+      width: 70%;
+      font-size: 150%;
+}
+.heading h2{
+    font-size:200%;
+}
+.introduction_content p{
+    text-align: center;
+}
+@media screen and (max-width:900px){
+    .introduction_content p{
+        font-size: 40%;
+    }
+    .heading h2{
+        font-size: 100%;
+    }
+    .Granite_intro{
+        height: 4.3%;
+        width: 100%;
+        padding-top: 50px;
+  
+    }
+}
+@media screen and (max-height:400px){
+    .introduction_content p{
+        font-size: 60%;
+    }
+    .heading h2{
+        font-size: 150%;
+    }
+    .Granite_intro{
+        height: 11%;
+        width: 100%;
+    }
+    video{
+        width:100%;
+        height: 100%;
+    }
+}
+.container, .content_conclusion{
+    display: flex;
+    background-color: rgba(247, 0, 58, 0.4);
+    align-items: center;
+    justify-items:center;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin: 20px;
+    border-radius: 3px;
+
+}
+.content_conclusion{
+    font-family: roboto,Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(216, 222, 227);
+    text-align: center;
+      }
+.content_conclusion h4{
+
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: azure;
+        font-size: larger;
+        font-size: 30px;
+      }
