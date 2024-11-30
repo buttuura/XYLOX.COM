@@ -20,7 +20,7 @@ html{
 }
 @media screen and (max-width:900px){
     body{
-        padding-top:180px;
+        padding-top:100px;
         margin: 0px;
     }
    
