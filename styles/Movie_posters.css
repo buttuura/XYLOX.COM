@@ -1,0 +1,65 @@
+body{
+    background-color: aliceblue;
+}
+.movie_poster_intro{
+    width: 100%;
+    margin: 20px;
+}
+ol{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    
+
+}
+ol::-webkit-scrollbar {
+    overflow: hidden;
+    display: none;
+}
+.Movie_posters_nav li{
+    background-color: rgb(243, 243, 230);
+    cursor: pointer;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+.Movie_posters_nav li:hover{
+    background-color: rgb(122, 116, 116);
+    text-decoration: underline;
+    color:azure
+}
+.movie_image_intro{
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.movie_poster_container{
+    display: flex;
+    background-color: bisque;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.posters_image_holder{
+    overflow: hidden;
+    border-radius: 3px;
+    padding: 1%;
+}
+.posters_image{
+    width: 150px;
+    height: 200px;
+    border-radius: 3px;
+    transition: transform .5s;
+}
+.posters_image:hover{
+    transform:  scale(1.02);
+    cursor:pointer;
+    box-shadow: inset;
+}
