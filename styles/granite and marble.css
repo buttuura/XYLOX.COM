@@ -1,3 +1,6 @@
+body{
+    width: 100%;
+}
 .backround-video{
     position: relative;
 }
@@ -51,6 +54,9 @@
     text-align: center;
 }
 @media screen and (max-width:900px){
+    .container{
+        width: 100%;
+    }
     .introduction_content p{
         font-size: 40%;
     }
@@ -65,6 +71,9 @@
     }
 }
 @media screen and (max-height:400px){
+    .container{
+        width: 100%;
+    }
     .introduction_content p{
         font-size: 60%;
     }
