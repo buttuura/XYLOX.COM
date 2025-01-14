@@ -1,35 +1,63 @@
-body{
-    background-color: aliceblue;
-}
+
 .movie_poster_intro{
     width: 100%;
     margin: 20px;
+
 }
+.movie_poster_intro h1{
+    font-size: 24px;
+    color: aliceblue;
+}
+.Movie_posters_nav_links{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+.Movie_posters_nav_links a{
+    color: black;
+}
+.swiper-new-movies,.swiper-horror,.swiper-science-fiction,.swiper-action,
+.swiper-adventure,.swiper-romance,.swiper-Commedy,
+.swiper-Drama,.swiper-thriror,.swiper-Animation,
+.swiper-Fantancy,.swiper-family-movies{
+    background-color: aqua;
+    width: fit-content;
+    height: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 8px;
+}
+
+/*
 ol{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 20px;
-    
+    overflow: hidden;
+    background-color: green;
 
 }
-ol::-webkit-scrollbar {
-    overflow: hidden;
-    display: none;
-}
+
 .Movie_posters_nav li{
     background-color: rgb(243, 243, 230);
     cursor: pointer;
     padding: 10px 5px 10px 5px;
     border-radius: 10px;
     text-transform: capitalize;
+    height: 35px;
 }
 .Movie_posters_nav li:hover{
     background-color: rgb(122, 116, 116);
     text-decoration: underline;
     color:azure
-}
+}*/
 .movie_image_intro{
     background-color: blueviolet;
     margin: 20px;
@@ -46,6 +74,7 @@ ol::-webkit-scrollbar {
     margin: 20px;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
 }
 .posters_image_holder{
     overflow: hidden;
