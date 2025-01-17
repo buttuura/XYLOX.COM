@@ -1,6 +1,6 @@
 
 .movie_poster_intro{
-    width: 100%;
+    width: 100VH;
     margin: 20px;
 
 }
@@ -8,12 +8,16 @@
     font-size: 24px;
     color: aliceblue;
 }
+.Movie_posters_nav{
+    width: 100%;
+}
 .Movie_posters_nav_links{
     display: flex;
     flex-direction: row;
     gap: 5px;
     flex-wrap: nowrap;
     overflow-x: scroll;
+   
 }
 .Movie_posters_nav_links a{
     color: black;
