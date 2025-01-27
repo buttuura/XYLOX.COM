@@ -1,6 +1,6 @@
 
 .movie_poster_intro{
-    width: 100VH;
+    width:fit-content;
     margin: 20px;
 
 }
@@ -26,7 +26,7 @@
 .swiper-adventure,.swiper-romance,.swiper-Commedy,
 .swiper-Drama,.swiper-thriror,.swiper-Animation,
 .swiper-Fantancy,.swiper-family-movies{
-    background-color: aqua;
+    background-color: rgb(205, 205, 205);
     width: fit-content;
     height: 20px;
     padding: 20px;
