@@ -22,4 +22,15 @@ document.addEventListener('DOMContentLoaded', function() {
             });
         }
     });
+    
 });
+
+// side bar
+        let button = document.querySelector('#Filter-btn');
+        let sidebar = document.querySelector('#sidebar');
+   
+        button.addEventListener('click', () => {
+           sidebar.classList.toggle('show');});
+           
+           button.addEventListener('click', () => {
+            sidebar.classList.add('grow');});
