@@ -1,107 +1,98 @@
-.Side-Nav-bar{
-    position: fixed;
-    top: 250px;
-    overflow: hidden;
-    z-index: 200;
-    background-color: blueviolet;
-    height: 50%;
-    width: 200px;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius:30px;
-    margin-bottom: 200px;
+
+.movie_poster_intro{
+    width:fit-content;
+    margin: 20px;
+
+}
+.movie_poster_intro h1{
+    font-size: 24px;
+    color: aliceblue;
+}
+.Movie_posters_nav{
+    width: 100%;
+}
+.Movie_posters_nav_links{
     display: flex;
-    gap: 5px;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.Side-Nav-bar a:hover{
-    color: white;
-    text-decoration: none;
-}
-.sidebar1,.sidebar2,.sidebar3,.sidebar4,.sidebar5,.sidebar6,.sidebar7,.sidebar8{
-    background-color: rgb(241, 150, 31);
-    width: fit-content;
-    padding: 6px;
-    border-radius: 20px;
-}
-.sidebar1,.sidebar2,.sidebar3,.sidebar4,.sidebar5,.sidebar6,.sidebar7,.sidebar8 a:hover{
-    text-decoration: none;
-}
-.graphis-content{
- background-color: #7d7d7d;
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: right;
+    gap: 5px;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
    
-
 }
-@media screen and (max-width:900px) {
-    .graphis-content{
-           display:grid;
-          grid-template-columns: 1fr 1fr 1fr;
-          
-       }
-
-    .graphic-school-budge-image-text{
-       font-size: 3vw;
-        
-    }
+.Movie_posters_nav_links a{
+    color: black;
 }
-.graphic_container{
-    background-color: rgb(73, 75, 73);
+.swiper-new-movies,.swiper-horror,.swiper-science-fiction,.swiper-action,
+.swiper-adventure,.swiper-romance,.swiper-Commedy,
+.swiper-Drama,.swiper-thriror,.swiper-Animation,
+.swiper-Fantancy,.swiper-family-movies{
+    background-color: rgb(205, 205, 205);
     width: fit-content;
-    margin:3px;
-    position: relative;
-    opacity: 1;
-    display: block;
-    height: 100%;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    padding-bottom: 0%;
-    border-radius: 10px;
-}
-.graphic_container:hover{
-    opacity: 0.8;
-}
-.school-budge{
-    width: 20vw;
-    height: 100%;
-}
-.graphic-school-budge-image-text{
-    background-color: aliceblue;
+    height: 20px;
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    border-radius: 8px;
+}
+
+/*
+ol{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    overflow: hidden;
+    background-color: green;
 
 }
-.graphic-school-budge-image-text li{
-    list-style: none;
+
+.Movie_posters_nav li{
+    background-color: rgb(243, 243, 230);
+    cursor: pointer;
+    padding: 10px 5px 10px 5px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    height: 35px;
 }
-.hover-icon-image{
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  width: 100%;
-    height: 100%;
+.Movie_posters_nav li:hover{
+    background-color: rgb(122, 116, 116);
+    text-decoration: underline;
+    color:azure
+}*/
+.movie_image_intro{
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.movie_poster_container{
+    display: flex;
+    background-color: bisque;
+    flex-wrap: wrap;
+    margin: 20px;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    gap: 20px;
-
+    border-radius: 5px;
 }
-.hover-icon-image:hover{
-    opacity: 3;
+.posters_image_holder{
+    overflow: hidden;
+    border-radius: 3px;
+    padding: 1%;
 }
-.graphic-image-icon{
-      width: 40px;
-      height: 40px;
-      background-color: rgb(0, 0, 0);
-      cursor: pointer;
+.posters_image{
+    width: 150px;
+    height: 200px;
+    border-radius: 3px;
+    transition: transform .5s;
+}
+.posters_image:hover{
+    transform:  scale(1.02);
+    cursor:pointer;
+    box-shadow: inset;
 }
