@@ -10,7 +10,7 @@ body{
     padding-bottom: 400px;
     padding-left:0px ;
     padding-right: 0px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(34, 34, 34);
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     min-height: 100vh;
@@ -145,12 +145,17 @@ table, tr,th {
     font-weight: bolder;
 }
 ::-webkit-scrollbar {
-    width: 10px;}
+    width: 7px;
+    height: 7px;
+}
+    
 ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px grey; 
-        border-radius: 10px;}
+        box-shadow: inset 0 0 5px transparent; 
+        border-radius: 1px;}
 ::-webkit-scrollbar-thumb {
-            background: rgb(37, 14, 14); 
-            border-radius: 10px;}
+            background: rgb(255, 3, 3); 
+            border-radius: 10px;
+            width: 20px;
+        }
 ::-webkit-scrollbar-thumb:hover {
-            background: #001401;}
+            background: #008407;}
