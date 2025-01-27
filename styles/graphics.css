@@ -1,29 +1,43 @@
 .Side-Nav-bar{
     position: fixed;
-    top: 250px;
-    overflow: hidden;
     z-index: 200;
-    background-color: blueviolet;
+    background-color: rgb(91, 91, 91);
     height: 50%;
-    width: 200px;
+    width:0;
     border-top-right-radius: 30px;
     border-bottom-right-radius:30px;
     margin-bottom: 200px;
-    display: flex;
-    gap: 5px;
+    display: none;
+    gap: 2px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-
+    overflow: scroll;
+    animation: grow 0.5s forwards;
+}
+@keyframes grow {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 50%;
+    }
 }
 
+.Side-Nav-bar.show{
+    display: flex;
+   width: 50%;
+}
+.Side-Nav-bar a{
+    color: black;
+}
 .Side-Nav-bar a:hover{
-    color: white;
+    color: rgb(255, 0, 0);
     text-decoration: none;
 }
 .sidebar1,.sidebar2,.sidebar3,.sidebar4,.sidebar5,.sidebar6,.sidebar7,.sidebar8{
-    background-color: rgb(241, 150, 31);
+    background-color: rgb(203, 202, 201);
     width: fit-content;
     padding: 6px;
     border-radius: 20px;
@@ -35,7 +49,7 @@
  background-color: #7d7d7d;
     display:flex;
     flex-wrap: wrap;
-    justify-content: right;
+    justify-content: center;
    
 
 }
