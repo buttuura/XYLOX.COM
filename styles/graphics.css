@@ -78,6 +78,15 @@
     padding-bottom: 0%;
     border-radius: 10px;
 }
+.advert{
+    z-index: 100;
+    background-color: red;
+    font-size: 40px;
+    color: yellow;
+    height: 50px;
+    position: sticky;
+    top: 11%;
+}
 .graphic_container:hover{
     opacity: 0.8;
 }
